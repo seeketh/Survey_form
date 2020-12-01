@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Survery Form</title>
+</head>
+
+<body>
+	<div id="form-container">
+		<h1 id="title">Service Survey Form</h1>
+		<p id="description">We appreciate your stopping by to tell us a bit more about yourself. Lets do this!</p>
+		<form id="survey-form" method="post" action="#">
+			<label id="name-label" for="name">Full Name</label>
+			<br />
+			<input type="text" id="name" class="input-box" name="name" placeholder="Enter your full name" required />
+			<br />
+			<label id="email-label" for="email">Email</label>
+			<br />
+			<input type="email" id="email" class="input-box" name="email" placeholder="Enter our email" required />
+			<br />
+			<label id="number-label" for="number">Your Age</label>
+			<br />
+			<input type="number" id="number" name="age" placeholder="Age" min="18" max="80" required />
+			<br />
+			<label id="dopdown-label" for="type">Body Type</label>
+			<br />
+			<select id="dropdown" name="body">
+      <option value="b1">Slim</option>
+      <option value="b2">Athletic</option>
+      <option value="b3">Over weight</option>
+    </select>
+			<br />
+			<label id="radio-label">Height Group</label>
+			<input type="radio" id="p1" name="payment" value="p1" checked />
+			<label id="p1-label" for="p1"> Tall</label>
+			<br />
+			<input type="radio" id="p2" name="payment" value="p2" />
+			<label id="p2-label" for="p2"> Short</label>
+			<br />
+			<input type="radio" id="p3" name="payment" value="p3" />
+			<label id="p3-label" for="p3"> Average</label>
+			<br />
+			<label id="checkbox-label">Service Wish List</label>
+			<input type="checkbox" id="f1" name="w1" value="f1" checked/>
+			<label id="f1-label" for="f1"> Formula 1 Racing</label>
+			<br />
+			<input type="checkbox" id="s1" name="w2" value="s1" />
+			<label id="s1-label" for="s1"> Spanish La Liga</label>
+			<br />
+			<input type="checkbox" id="s2" name="w3" value="s2" />
+			<label id="s2-label" for="s2"> English PL</label>
+			<br />
+			<label id="textarea-label" for="comment">Additional Comment</label>
+			<textarea id="comment" name="comment" rows="10" cols="70" placeholder="Enter Addition comment here"></textarea>
+			<br />
+			<input id="submit" type="submit" />
+  </form>
+	</div>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>

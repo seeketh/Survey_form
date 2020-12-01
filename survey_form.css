@@ -1,0 +1,87 @@
+body {
+  background-image:  url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/back_pattern.png");
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+#form-container {
+  width: 50%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#description {
+  font-size: 17px;
+}
+
+.input-box {
+  width: 50%;
+  min-height: 30px;
+  margin: 5px 0px 15px 0px;
+  border-radius: 4px;
+  border-style: groove;
+  padding-left: 5px;
+}
+
+#number {
+  width: 10%;
+  min-height: 30px;
+  margin: 5px 0px 15px 0px;
+  border-radius: 4px;
+  border-style: groove;
+  padding-left: 5px;
+  border: 2px solid black;
+}
+
+#dropdown {
+  width: 50%;
+  height: 40px;
+  margin: 5px 0px 15px 0px;
+  border-radius: 4px;
+  padding-left: 5px;
+  border: 2px solid black;
+}
+
+#radio-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#checkbox-label, #textarea-label {
+    display: block;
+  margin: 10px 0px 5px 0px;
+}
+
+#submit {
+  height: 50px;
+  width: 150px;
+  background-color: #1979a9;
+  font-size: 17px;
+  color: #fefefe;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+::-webkit-input-placeholder {
+  color: #cccccc;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+::-moz-placeholder {
+  color: #cccccc;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:-ms-input-placeholder {
+  color: #cccccc;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+::placeholder {
+  color: #cccccc;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
